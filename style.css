@@ -69,16 +69,19 @@ img { vertical-align: top; }
     border-right: 1px solid #d7d7c7;
     border-bottom: 1px solid #d7d7c7;
     border-radius: 3px;
-    padding: 6px 10px 6px 20px;
-    margin: 2em -15px 1.4em -15px;
+    /* padding: 3px 10px 3px 30px;
+    margin: 1.4em -15px; */
+    padding: 0;
+    margin: 0;
+
 }
 #content-body h4 {
     font-size: 108%;
     font-weight: bold;
     background: #fff url("../img/ico_subhead.png") left center no-repeat;
     border-bottom: 1px solid #e5e5e5;
-    padding: 3px 10px 3px 30px;
-    margin: 1.4em -15px;
+    padding: 6px 10px 6px 20px;
+    margin: 2em -15px 1.4em -15px;
 }
 #content-body h4 a { font-weight: bold; }
 #content-body p,
@@ -86,7 +89,8 @@ img { vertical-align: top; }
 #content-body ol,
 #content-body dl,
 #content-body table,
-#content-body div { margin: 1.4em 0; }
+/* #content-body div { margin: 1.4em 0; } */
+#content-body div { margin: 0; }
 #content-body ol {
     list-style-type: decimal;
     margin-left: 16px;

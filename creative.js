@@ -2,6 +2,7 @@ $(function() {
   $.ajax({
     url: 'http://www.bousai.pref.okayama.jp/bousai/city/?city_code=336637',
     type: 'GET',
+    cache: false, // キャッシュOFF
     success: function(data) {
       // 外部ページのHTMLテキスト（ソース）を取得する
       var html_text = data.responseText;
